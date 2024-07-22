@@ -48,24 +48,18 @@
 
              System.out.println(resultado);
 
-             public class MyClass {
-	
-                public double somar(int num1, int num2){
-                    //LOGICA - FINALIDADE DO MÉTODO
-                    return ... ;
-                }
+                boolean ligada = true;
+                int canal = 0;
+                int volume = 0;
                 
-                public void imprimir(String texto){
-                    //LOGICA - FINALIDADE DO MÉTODO
-                    //AQUI NÃO PRECISA DO RETURN
-                    //POIS NÃO SERÁ RETORNADO NENHUM RESULTADO
+                ligada = !ligada;
+
+                if(ligada == true){
+                    System.out.println("Televisão ligada.");
+                } else {
+                    System.out.println("Televisão desligada.");
                 }
-                // throws Exception : indica que o método ao ser utilizado
-                // poderá gerar uma exceção
-                public double dividir(int dividendo, int divisor) throws Exception{}
-                
-                // este método não pode ser visto por outras classes no projeto
-                private void metodoPrivado(){}
         }
+        
 
 }
