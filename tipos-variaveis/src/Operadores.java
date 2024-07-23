@@ -48,17 +48,7 @@
 
              System.out.println(resultado);
 
-                boolean ligada = true;
-                int canal = 0;
-                int volume = 0;
-                
-                ligada = !ligada;
 
-                if(ligada == true){
-                    System.out.println("Televisão ligada.");
-                } else {
-                    System.out.println("Televisão desligada.");
-                }
         }
         
 
