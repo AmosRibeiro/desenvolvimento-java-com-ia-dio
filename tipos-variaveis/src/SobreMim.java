@@ -23,8 +23,9 @@ public class SobreMim {
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + "cm ");
-        
+        scanner.close();
         
     }
+
     
 }
