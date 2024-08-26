@@ -1,3 +1,4 @@
+package exemplos;
 public class ResultadoEscolarOtimizado {
     public static void main(String[] args) {
         int nota = 3;

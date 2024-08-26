@@ -1,3 +1,4 @@
+package exemplos;
 public class SmartTV {
 
     boolean ligada = false;

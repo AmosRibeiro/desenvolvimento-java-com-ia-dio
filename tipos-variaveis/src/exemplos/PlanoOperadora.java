@@ -1,3 +1,4 @@
+package exemplos;
 public class PlanoOperadora{
     public static void main(String[] args) {
         String planoTelefonico = "B"; // Planos: T -> TURBO, M -> MIDIA, B -> BASIC

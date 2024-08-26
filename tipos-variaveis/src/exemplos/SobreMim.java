@@ -1,3 +1,4 @@
+package exemplos;
 import java.util.Locale;
 import java.util.Scanner;
 //Criado para ser executado no Prompt de comando do Windows

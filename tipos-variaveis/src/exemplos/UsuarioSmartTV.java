@@ -1,3 +1,4 @@
+package exemplos;
 public class UsuarioSmartTV {
     public static void main (String[] args) throws Exception {
         SmartTV smartTv= new SmartTV();
